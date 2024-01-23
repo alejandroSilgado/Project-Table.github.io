@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 50px auto; /* Centrar en la página */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+  .container table,
+.container div {
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align:center;
+  text-shadow: 1px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: grey;
+}
+
+td input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #e5b1b1;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+td input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+td input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+/* Agregar estilos específicos para las primeras columnas (Paises) */
+td:first-child {
+  font-weight: bold;
+  background-color: #a9e4ff;
+}
+
+td:first-child input[type="text"] {
+  font-weight: normal;
+  background-color: #ff1313;
+}
+#tabla2 td {
+  background-color: grey;
+  font-weight: bold;
+
+}
+
+#contenido td{
+  background-color: white;
+  font-weight: normal;
+}
+
+/* Estilos creativos para el formulario de registro */
+
+h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #6583f0; /* Cambiado a tu color */
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #6583f0; /* Cambiado a tu color */
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  border-color: #4a5abf; /* Cambiado a un tono más oscuro del azul */
+}
+
+label.checkbox {
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6583f0; /* Cambiado a tu color */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a5abf; /* Cambiado a un tono más oscuro del azul */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+/* Estilos creativos para el segundo formulario */
+
+#formulario2 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#formulario2 h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #6583f0;
+}
+
+#formulario2 label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+#formulario2 input[type="text"],
+#formulario2 input[type="email"],
+#formulario2 input[type="url"],
+#formulario2 input[type="date"],
+#formulario2 input[type="time"],
+#formulario2 input[type="datetime-local"],
+#formulario2 input[type="month"],
+#formulario2 input[type="week"],
+#formulario2 input[type="tel"],
+#formulario2 input[type="search"],
+#formulario2 input[type="color"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #6583f0;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+#formulario2 input[type="text"]:focus,
+#formulario2 input[type="email"]:focus,
+#formulario2 input[type="url"]:focus,
+#formulario2 input[type="date"]:focus,
+#formulario2 input[type="time"]:focus,
+#formulario2 input[type="datetime-local"]:focus,
+#formulario2 input[type="month"]:focus,
+#formulario2 input[type="week"]:focus,
+#formulario2 input[type="tel"]:focus,
+#formulario2 input[type="search"]:focus,
+#formulario2 input[type="color"]:focus {
+  outline: none;
+  border-color: #4a5abf;
+}
+
+#formulario2 button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6583f0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#formulario2 button:hover {
+  background-color: #4a5abf;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}

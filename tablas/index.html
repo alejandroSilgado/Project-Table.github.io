@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Tablas</title>
+</head>
+<nav id="navbar">
+    <ul class="navbar-items flexbox-col">
+      <li class="navbar-logo flexbox-left">
+        <a class="navbar-item-inner flexbox">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+      </li>
+      <li class="navbar-item flexbox-left">
+        <a class="navbar-item-inner flexbox-left">
+          <div class="navbar-item-inner-icon-wrapper flexbox">
+            <ion-icon name="home-outline"></ion-icon>
+          </div>
+          <span class="link-text">Inicio</span>
+        </a>
+      </li>
+      <li class="navbar-item flexbox-left">
+        <a class="navbar-item-inner flexbox-left">
+          <div class="navbar-item-inner-icon-wrapper flexbox">
+            <ion-icon name="folder-open-outline"></ion-icon>
+          </div>
+          <span class="link-text">Proyectos</span>
+        </a>
+      </li>
+      <li class="navbar-item flexbox-left">
+        <a class="navbar-item-inner flexbox-left">
+          <div class="navbar-item-inner-icon-wrapper flexbox">
+            <ion-icon name="pie-chart-outline"></ion-icon>
+          </div>
+          <span class="link-text">Panel de control</span>
+        </a>
+      </li>
+      </li>
+      <li class="navbar-item flexbox-left">
+        <a class="navbar-item-inner flexbox-left">
+          <div class="navbar-item-inner-icon-wrapper flexbox">
+            <ion-icon name="settings-outline"></ion-icon>
+          </div>
+          <span class="link-text">Configuracion</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+<body>
+    <div class="container">
+    <h1>Tabla 1</h1>
+    <table>
+        <tr>
+          <th rowspan="2">Paises</th>
+        </tr>
+        <tr>
+          <th>2000</th>
+          <th>2001</th>
+          <th>2002</th>
+          <th>2003</th>
+          <th>2004</th>
+          <th>2005</th>
+          <th>2006</th>
+          <th>2007</th>
+          <th>2008</th>
+          <th>2009</th>
+          <th>2010</th>
+          <th>2011</th>
+          <th>2012</th>
+          <th>2013</th>
+        </tr>
+        <tr>
+            <td>UE (27 Paises)</td>
+            <td>8.9</td>
+            <td>8.7</td>
+            <td>9</td>
+            <td>9.1</td>
+            <td>9.3</td>
+            <td>9</td>
+            <td>8.2</td>
+            <td>7.2</td>
+            <td>7</td>
+            <td>9</td>
+            <td>9.6</td>
+            <td>9.6</td>            
+            <td>10.4</td>
+            <td>10.8</td>
+        </tr>
+        <tr>
+            <td>España</td>
+            <td>11.9</td>
+            <td>10.6</td>
+            <td>11.5</td>
+            <td>11.5</td>
+            <td>11</td>
+            <td>9.2</td>
+            <td>8.5</td>
+            <td>8.2</td>
+            <td>11.3</td>
+            <td>17.9</td>
+            <td>19.9</td>
+            <td>21.4</td>
+            <td>24.8</td>
+            <td>26.1</td>
+        </tr>
+        <tr>
+            <td>Grecia</td>
+            <td>11.2</td>
+            <td>10.7</td>
+            <td>10.3</td>
+            <td>9.7</td>
+            <td>10.6</td>
+            <td>10</td>
+            <td>9</td>
+            <td>8.4</td>
+            <td>7.8</td>
+            <td>9.6</td>
+            <td>12.7</td>
+            <td>17.9</td>
+            <td>24.5</td>
+            <td>27.5</td>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td>4</td>
+            <td>4.8</td>
+            <td>5.8</td>
+            <td>6</td>
+            <td>5.5</td>
+            <td>5.1</td>
+            <td>4.6</td>
+            <td>4.6</td>
+            <td>5.8</td>
+            <td>9.3</td>
+            <td>9.6</td>
+            <td>8.9</td>
+            <td>8.1</td>
+            <td>7.4</td>
+        </tr>
+        <tr>
+            <td>Japon</td>
+            <td>4.7</td>
+            <td>5</td>
+            <td>5.4</td>
+            <td>5.3</td>
+            <td>4.7</td>
+            <td>4.4</td>
+            <td>4.1</td>
+            <td>3.9</td>
+            <td>4</td>
+            <td>5.1</td>
+            <td>5.1</td>
+            <td>4.6</td>
+            <td>4.3</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <br>  
+    <h1>Tabla 2</h1>
+    <table>
+        <tr id="tabla2">
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr> 
+        <tr id="contenido">
+            <td scope="rowgroup" rowspan="1">Mates</td>
+            <td scope="rowgroup" colspan="3" rowspan="2">Dibujo </td>
+            <td scope="rowgroup" rowspan="3">Historia</td>
+        </tr>
+        <tr id="contenido">
+            <td scope="rowgroup" rowspan="3">Fisica</td>
+        </tr>
+        <tr id="contenido" >
+            <td>Descanso</td>
+            <td>Descanso</td>
+            <td>Descanso</td>
+        </tr>
+        <tr id="contenido">
+            <td>Gimnasia</td>
+            <td>..futbolin..</td>
+            <td>Gimnasia</td>
+            <td>Mates</td>
+        </tr>
+    </table>    
+    <br>
+    <h1>Tabla 3</h1>
+    <table>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Day</th>
+                <th scope="rowgroup" colspan="3">Seminar</th>
+            </tr> 
+            <tr>
+                <th scope="rowgroup" colspan="2">Schedule</th>
+                <th scope="rowgroup" rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+            <tr>
+                <td scope="rowgroup" rowspan="2">Monday</td>
+                <td scope="rowgroup" rowspan="2">8:00 a.m.</td>
+                <td scope="rowgroup" rowspan="2">5:00 p.m.</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td scope="rowgroup" rowspan="3">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td scope="rowgroup" rowspan="1">XPath</td>
+            </tr>
+            <tr>
+                <td>11:00 a.m.</td>
+                <td>2:00 a.m.</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
+                <td scope="rowgroup" rowspan="1">XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+    </table>
+        <br>
+        <h1>Formulario de registro</h1>
+        <div>
+            <label >Nombre: <input type="text" placeholder="Digite sus nombres"></label><br><br>
+            <label >Apellidos: <input type="text" placeholder="Digite sus apellidos"></label><br><br>
+            <label>Sexo: <input type="radio" >hombre <input type="radio"> mujer</label><br><br>
+            <label>Correo: <input type="email" placeholder="Ingrese su email"></label><br><br>
+            <label><input type="checkbox"> Deseo recibir información sobre novedades y ofertas</label><br><br>
+            <label><input type="checkbox"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+            <button>Enviar</button>
+        </div>
+
+        <br>
+        <h1>Formulario 2</h1>
+        <div id="formulario2">
+            <label >Nombre: <input type="text"></label><br><br>
+            <label >Correo electrónico: <input type="email"></label><br><br>
+            <label >URL <input type="url" placeholder="Escribe la URL de tu pagina"></label><br><br>
+            <label >Fecha: <input type="date"></label><br><br>
+            <label >Tiempo: <input type="time"></label><br><br>
+            <label >Fecha y hora: <input type="datetime-local"></label><br><br>
+            <label >Mes: <input type="month"></label><br><br>
+            <label >Semana: <input type="week"></label><br><br>
+            <label >Telefono: <input type="tel"></label><br><br>
+            <label >Termino de busqueda: <input type="search"></label><br><br>
+            <label >Color favorito: <input type="color"></label><br><br>
+            <button>Enviar</button>
+        </div>
+    </div>
+
+</body>
+</html> 
+</html>
